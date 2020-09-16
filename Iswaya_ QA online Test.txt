@@ -1,0 +1,24 @@
+Question 01
+
+
+Question 02
+
+Regression testing is the type of testing that is performed to ensure that a fix or change hasn’t affected the previously working functionality.
+
+When a tested software undergoes a minor fix(or a fix that doesn’t affect the whole application) then it is not advisable to conduct thorough testing of all the modules of the application. Instead, after a fix in a previously tested and working software, we only run a limited number of test cases while also ensuring proper test coverage. This type of testing is known as Regression Testing.
+
+Regression Testing is usually performed after verification of changes or new functionality. But this is not the case always. For the release that is taking months to complete, regression tests must be incorporated in the daily test cycle. For weekly releases, regression tests can be performed when the Functional Testing is over for the changes.
+
+
+
+Question 03
+
+a)  SELECT * FROM Customer Table 
+    WHERE Contry = 'Mexico';
+
+b)  SELECT Customers.CustomerName,Customers.Country,Orders.OrderDate,Orders.Qty 
+    FROM Orders 
+    INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID;
+
+
+
