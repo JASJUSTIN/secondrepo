@@ -13,6 +13,7 @@ public class openbrowser {
         WebDriver driver =new ChromeDriver();
         driver.get("http://automationpractice.com/index.php");
  // commnt
+        //comment
 
     }
 }
